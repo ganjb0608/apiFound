@@ -1,0 +1,19 @@
+{
+    "name": "ganjiebiao/api_test",
+    "description": "common api test",
+    "type": "1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ganjiebiao",
+            "email": "ganjiebiao@qutoutiao.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ApiTest\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
