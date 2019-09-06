@@ -16,4 +16,9 @@ class ApiTest {
     public function getInfo(){
         return sprintf("%s:%s",$this->name,$this->age);
     }
+
+    public static function CreateInstance() {
+        $obj = new self();
+        return $obj;
+    }
 }
